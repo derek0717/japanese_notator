@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+font-family:"noto";
+src: url("../fonts/NotoSansCJKjp-Bold.otf") format("opentype");
+font-weight:bold;
+font-style:normal;
+}
+
+/*reset*/
+/************************************************************
+*　RESET style sheet（2014.12.19 -）
+************************************************************/
+html, body, div, span,
+applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dd, dl, dt, li, ol, ul,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	line-height: 1;
+	font-weight: normal;
+	font-style: normal;
+	font-size: 100%;
+	font-family: inherit;
+	text-align: left;
+	vertical-align: baseline;
+	font-family:"Hiragino Kaku Gothic Pro",Meiryo, Osaka,"MS PGothic", sans-serif;
+}
+
+a img, :link img, :visited img {
+	border: 0;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+ul,ol{
+	list-style-type:none;
+}
+
+ul li img {
+	vertical-align: top;
+}
+/*++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+　BODY
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++*/
+.cf {
+	font-family: 'noto';
+	font-weight:bold;
+}
+
+h2{
+	font-size:2em;
+	color:#888;
+}
+.tItem p{
+	display:table-row;
+}
+.tItem span{
+	display:table-cell;
+	text-align:center;
+	white-space:nowrap;
+}
+.tInput input{
+	width:50px;
+}
+.tInput p:first-child{
+	border-bottom:1px solid #eee;
+}
