@@ -2,10 +2,11 @@
 
 @font-face {
 font-family:"noto";
-src: url("../fonts/NotoSansCJKjp-Bold.otf") format("opentype");
+src: url("../fonts/NotoSans-Bold.ttf") format("truetype");
 font-weight:bold;
 font-style:normal;
 }
+
 
 /*reset*/
 /************************************************************
